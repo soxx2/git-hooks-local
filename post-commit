@@ -1,0 +1,5 @@
+#!/bin/sh
+
+echo "this emanated from post-commit by:" $GIT_AUTHOR_NAME
+
+exit 0
